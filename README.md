@@ -1,4 +1,4 @@
-# 🎬 CineParser — Movie Information Extractor
+# 🎬 CineSnap — Movie Information Extractor
 
 > *Paste a paragraph. Get a movie's soul, structured.*
 
@@ -6,7 +6,7 @@
 
 ## What Is This?
 
-You've seen a movie description somewhere — a blog post, a review, a friend's WhatsApp message. CineParser reads that raw, unstructured text and instantly pulls out everything that matters: title, genre, cast, director, release year, rating, and a clean summary — all formatted as structured data.
+You've seen a movie description somewhere — a blog post, a review, a friend's WhatsApp message. CineSnap reads that raw, unstructured text and instantly pulls out everything that matters: title, genre, cast, director, release year, rating, and a clean summary — all formatted as structured data.
 
 No forms to fill. No dropdowns to click. Just plain English in, clean JSON out.
 
@@ -65,7 +65,7 @@ Two interfaces, same brains:
 ## 🗂️ Project Structure
 
 ```
-cineparser/
+CineSnap/
 ├── core.py          # Terminal interface — input prompt, parse, print
 ├── UICore.py        # Streamlit web UI — visual, interactive
 ├── requirement.txt  # All dependencies
@@ -136,20 +136,6 @@ Fields marked `?` are optional — if the paragraph doesn't mention them, they c
 
 ---
 
-## 🔮 Ideas for What's Next
 
-- [ ] Support multiple movies in one paragraph
-- [ ] Export extracted data to CSV / Excel
-- [ ] Add Google Gemini as an alternative model
-- [ ] Batch mode — process a list of paragraphs from a file
-- [ ] Confidence scores on extracted fields
 
----
 
-## 📄 License
-
-MIT — do whatever you want with it, attribution appreciated.
-
----
-
-*Built with LangChain + Mistral AI · Structured by Pydantic · Served by Streamlit*
